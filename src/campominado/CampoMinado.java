@@ -8,7 +8,6 @@ package campominado;
 
 import java.util.Scanner;
 
-
 public class CampoMinado {
 
     public static void main(String[] args) {
