@@ -32,6 +32,9 @@ public class Jogo {
         mina.criaMinas();
         mina.printMina();
     }
+    public void novaJogada(int x ,int y){
+        
+    }
     
     public int[][] getJogadas() {
         return jogadas;

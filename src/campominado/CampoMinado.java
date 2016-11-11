@@ -11,9 +11,10 @@ import java.util.Scanner;
 public class CampoMinado {
 
     public static void main(String[] args) {
-       Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         int op =1;
         int x=0,y=0,campos=0;
+        
         System.out.print("Digite a quantidade de celulas no campo = ");
         campos = s.nextInt();
         Jogo jogo = new Jogo();
@@ -25,7 +26,7 @@ public class CampoMinado {
         y=s.nextInt();
         
 
-        } while (op==1);
+        } while (jogo.getVidas()==0);
        
     }
     
