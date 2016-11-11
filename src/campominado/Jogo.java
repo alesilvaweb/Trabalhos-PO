@@ -33,9 +33,6 @@ public class Jogo {
         mina.printMina();
     }
     
-    
-    
-    
     public int[][] getJogadas() {
         return jogadas;
     }
