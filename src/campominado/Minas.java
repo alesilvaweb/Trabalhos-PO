@@ -9,13 +9,17 @@ public class Minas extends Bomba{
     private String[][] mina;
 
      public Minas(int x) {
-        this.mina = new String[x][x];
+         if(x==0||x==1){
+             System.out.println("Valores 0 e 1 não são aceitos valor padrão aplicado 4x4"); 
+            this.mina = new String[4][4]; 
+         }else{
+            this.mina = new String[x][x];
+         }   
     }
     public Minas() {
-        this.mina = new String[5][5];
+        this.mina = new String[4][4];
     }
-   
-    
+
      public void criaMinas(){
       criaBomba();
        Random r = new Random();
